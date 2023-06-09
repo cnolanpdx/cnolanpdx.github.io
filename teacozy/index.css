@@ -89,9 +89,10 @@ main {
 .featured-gallery {
   padding-top: 50px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .featured-gallery figure {
